@@ -1,0 +1,6 @@
+azure-search-documents==11.3.0
+num2words==0.5.12
+openai==0.26.1
+pdfminer==20191125
+plotly==5.10.0
+transformers==4.5.1
