@@ -1,14 +1,14 @@
-# Project
+# Azure OpenAI Workshop
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+Welcome to the Azure OpenAI workshop! In this workshop, you will learn how to use the Azure OpenAI service to create AI powered solutions. You will get hands-on experience with the latest AI technologies and will learn how to use Azure OpenAI API.
 
-As the maintainer of this project, please make a few updates:
+Prerequisites
+To fully participate in this workshop, you should have:
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+Basic understanding of AI and machine learning
+Basic knowledge of Python programming
+An Azure account (sign up for a free trial if you don't have one already)
+Access to Azure OpenAI service
 
 ## Contributing
 
