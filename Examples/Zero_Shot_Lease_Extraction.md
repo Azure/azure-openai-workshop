@@ -2,7 +2,7 @@
 The ability to extract targeted pieces of information from documents, specific to each customer and use case is a common, emerging use case across industries. This typically requires iteratively training a customized model, against a curated, customer dataset. In this demo we'll show the power of OpenAI models' ability to extract precise information from a document, from only a natural language instruction - enabled by the Large Language Models's (LLM) capability to understand the context of the inqury/instruction and the provided document.
 
 **Steps:**  
-User Zero shot learning to:
+Use-zero shot learning to:
 - [ ] Provide natural language instruction task ("please extract these ~dozen pieces of information from the lease, e.g. Who is the landlord? What is the size of the property? And please return in the output in a clean json format.")
 - [ ] Add the lease to the prompt
 - [ ] Results!  
@@ -22,12 +22,12 @@ Let's ask chatgpt to learn more about zero-shot learning!
 
 **Prompt (input)**  
 
-`What is zero shot learning and why is it powerful?`  
+`What is zero-shot learning and why is it powerful?`  
 
 **Completion (output)**  
 
 ```
-Zero shot learning is a type of machine learning algorithm that allows a model to make predictions on data it has never seen before.  
+Zero-shot learning is a type of machine learning algorithm that allows a model to make predictions on data it has never seen before.  
 This is significant because it allows the model to make predictions on data it has never seen before, which can be useful in a  
 variety of applications, such as natural language processing, computer vision, and robotics. It also allows the model to generalize  
 better, as it can make predictions on data it has never seen before. This is powerful because it allows the model to make  
@@ -36,18 +36,18 @@ predictions on data it has never seen before, which can be useful in a variety o
 </br>  
 
 -------
-In this demo, we'll submit a single prompt, including the task, in natural languge, with the lease to be analyzed, to one of the most powerful OpenAI models: text-davinci-003[^reference]  
+In this demo, we'll submit a single prompt, including the task, in natural languge, with the lease to be analyzed, to one of the most powerful OpenAI models: text-davinci-003[^4]  
 
 ![](images/zero_shot_lease_flow.jpg)  
 
-Using your OpenAI Resource [How to get started with OpenAI](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/create-resource?pivots=web-portal), navigate to the OpenAI playground, and submit your prompt.  
+Using your OpenAI Resource [(How to get started with OpenAI)](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/create-resource?pivots=web-portal), navigate to the OpenAI playground, and submit your prompt.  
 
 ![](images/prompt_design.jpg)  
 
 
 # Prompt  
 **Steps:**  
-User Zero shot learning to:
+Use zero-shot learning to:
 - [x] Provide natural language instruction task ("please extract these ~dozen pieces of information from the lease, e.g. Who is the landlord? What is the size of the property? And please return in the output in a clean json format.")
 - [x] Add the lease to the prompt
 - [ ] Results!  
