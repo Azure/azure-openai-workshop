@@ -14,7 +14,7 @@ predictions on data it has never seen before, which can be useful in a variety o
 ```  
 
 # Prompt
->>>Using the lease below, return a json object containing:  
+Using the lease below, return a json object containing:  
 blah
   
 Lessor, Lessee, Property Address, Property Description, Net Size of Property, Net Size of Property Units, Gross Size of Property, Gross Size of Propery Units, Contract Start Date, Lease Start Date, Lease End Date, Lease Term (include the units), Monthly Lease Amount (include currency), Payment Frequency, Payment Address.  
