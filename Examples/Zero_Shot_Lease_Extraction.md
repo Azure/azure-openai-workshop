@@ -14,6 +14,7 @@ variety of applications, such as natural language processing, computer vision, a
 better, as it can make predictions on data it has never seen before. This is powerful because it allows the model to make  
 predictions on data it has never seen before, which can be useful in a variety of applications.  
 ```  
+![](images/prompt_design.jpg)  
 
 # Prompt  
 ### Natural Language Instruction Task + prompt  
@@ -103,4 +104,4 @@ period of June 28 through December 27, 1997 (BDS$36,200) to the LANDLORD at 11 P
 # Credit:  
 * Kevin Tupper <kevin.tupper@microsoft.com>
 * Brandon Cowen <brandoncowen@microsoft.com>
-* aka.ms/airangers
+* (aka.ms/airangers)
