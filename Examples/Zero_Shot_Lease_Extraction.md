@@ -27,7 +27,6 @@ Format dates as YYYY-MM-DD. 
 
 Lease:  
 ```  
-### Prompt  (lease document)  
 ```LEASE AGREEMENT
 Between
 BOB MARSHALL
