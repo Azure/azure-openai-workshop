@@ -151,9 +151,9 @@ User Zero shot learning to:
 1. [SA Executed Lease Documents Dataset](https://www.gsa.gov/real-estate/real-estate-services/leasing/executed-lease-documents)  
 2. [Azure Documentation](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview)  
 3. [Azure OpenAI](https://openai.com)
-4. [What is Custom Named Entity Extractoin](https://learn.microsoft.com/en-us/azure/cognitive-services/language-service/custom-named-entity-recognition/overview)
+4. [What is Custom Named Entity Extraction](https://learn.microsoft.com/en-us/azure/cognitive-services/language-service/custom-named-entity-recognition/overview)
 
 # Credit:  
 * Kevin Tupper <kevin.tupper@microsoft.com>
-* Brandon Cowen <brandoncowen@microsoft.com>
+* Brandon Cowen <brandoncowen@microsoft.com>  
 * [](aka.ms/airangers)
