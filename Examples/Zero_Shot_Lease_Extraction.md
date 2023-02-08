@@ -6,7 +6,11 @@
 -Ask chatgpt!  
 `What is zero shot learning and why is it powerful?`
 ```
-Zero shot learning is a type of machine learning algorithm that allows a model to make predictions on data it has never seen before. This is significant because it allows the model to make predictions on data it has never seen before, which can be useful in a variety of applications, such as natural language processing, computer vision, and robotics. It also allows the model to generalize better, as it can make predictions on data it has never seen before. This is powerful because it allows the model to make predictions on data it has never seen before, which can be useful in a variety of applications.  
+Zero shot learning is a type of machine learning algorithm that allows a model to make predictions on data it has never seen before.  
+This is significant because it allows the model to make predictions on data it has never seen before, which can be useful in a  
+variety of applications, such as natural language processing, computer vision, and robotics. It also allows the model to generalize  
+better, as it can make predictions on data it has never seen before. This is powerful because it allows the model to make  
+predictions on data it has never seen before, which can be useful in a variety of applications.  
 ```  
 
 # Prompt
