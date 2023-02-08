@@ -2,7 +2,8 @@
 -using zero shot, pass in natural language instruction, sample lease, and visualize output  
 -using model text-davinci-003  
 -promt image  
-# What is zero shot learning?
+# What is zero shot learning?  
+-ask chatgpt  
 # Prompt
 ```
 Using the lease below, return a json object containing:  
@@ -56,6 +57,8 @@ period of June 28 through December 27, 1997 (BDS$36,200) to the LANDLORD at 11 P
 
 # References
 azure documentation  
+azure openai  
+
 # Credit:  
 * Kevin Tupper <kevin.tupper@microsoft.com>
 * Brandon Cowen <brandoncowen@microsoft.com>
