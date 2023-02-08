@@ -95,10 +95,12 @@ period of June 28 through December 27, 1997 (BDS$36,200) to the LANDLORD at 11 P
 }
 ```
 
-# References
-azure documentation  
-azure openai  
+# References  
+[SA Executed Lease Documents Dataset](https://www.gsa.gov/real-estate/real-estate-services/leasing/executed-lease-documents)  
+[Azure Documentation](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview)  
+[Azure OpenAI](https://openai.com)
 
 # Credit:  
 * Kevin Tupper <kevin.tupper@microsoft.com>
 * Brandon Cowen <brandoncowen@microsoft.com>
+* aka.ms/airangers
