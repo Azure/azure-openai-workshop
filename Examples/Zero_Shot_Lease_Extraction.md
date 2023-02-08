@@ -13,16 +13,21 @@ better, as it can make predictions on data it has never seen before. This is pow
 predictions on data it has never seen before, which can be useful in a variety of applications.  
 ```  
 
-# Prompt
+# Prompt  
+### Natural Language Instruction Task  
+```python
 Using the lease below, return a json object containing:  
 blah
   
-Lessor, Lessee, Property Address, Property Description, Net Size of Property, Net Size of Property Units, Gross Size of Property, Gross Size of Propery Units, Contract Start Date, Lease Start Date, Lease End Date, Lease Term (include the units), Monthly Lease Amount (include currency), Payment Frequency, Payment Address.  
+Lessor, Lessee, Property Address, Property Description, Net Size of Property, Net Size of Property Units, Gross Size of Property,  
+Gross Size of Propery Units, Contract Start Date, Lease Start Date, Lease End Date, Lease Term (include the units),  
+Monthly Lease Amount (include currency), Payment Frequency, Payment Address.  
 
 Format dates as YYYY-MM-DD. 
 
 Lease:  
-
+```  
+### Prompt  (lease document)  
 ```LEASE AGREEMENT
 Between
 BOB MARSHALL
@@ -69,9 +74,25 @@ of funds appropriated annually by the Congress of the United States of America. 
 to be made quarterly in advance, except that the initial payment shall be for six months for the
 period of June 28 through December 27, 1997 (BDS$36,200) to the LANDLORD at 11 Parma Avenue, Ft. Overview Heights, St. James, Barbados.
 ```  
-
+### Output  
 ```json
-key:value
+{
+  "Lessor": "Bob Marshall",
+  "Lessee": "The United States of America",
+  "Property Address": "#205 Lifton Avenue, Ft. Overview Heights, St. James, Barbados",
+  "Property Description": "3 bedrooms, 2 bathrooms, living-dining room, family room, and kitchen",
+  "Net Size of Property": 1725,
+  "Net Size of Property Units": "square feet",
+  "Gross Size of Property": null,
+  "Gross Size of Propery Units": null,
+  "Contract Start Date": "1997-05-23",
+  "Lease Start Date": "1997-06-28",
+  "Lease End Date": "2003-06-27",
+  "Lease Term": "6 years",
+  "Monthly Lease Amount": "BDS$5,300",
+  "Payment Frequency": "quarterly in advance",
+  "Payment Address": "11 Parma Avenue, Ft. Overview Heights, St. James, Barbados"
+}
 ```
 
 # References
