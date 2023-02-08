@@ -145,7 +145,7 @@ User Zero shot learning to:
 * Explore more capabilities at [Azure OpenAI](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/)
 * Build an end-to-end doc processing pipelines with [Azure Cognitive Services](https://azure.microsoft.com/en-us/products/cognitive-services/#overview)
 * OCR your documents, and take advantage of general and pretrained document models with [Azure Form Recognizer](https://azure.microsoft.com/en-us/products/form-recognizer/)
-* Experiment with quickly deploying multi-service pipelines through the no-code Studio [](https://github.com/Azure/business-process-automation)  
+* Experiment with quickly deploying multi-service pipelines through the no-code Studio (https://github.com/Azure/business-process-automation)  
 
 
 # References  
