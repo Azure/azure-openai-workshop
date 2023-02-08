@@ -10,10 +10,15 @@ User Zero shot learning to:
 # Motivation  
 While pretrained NER models are great for extracting general categories, persons, organizations, localations, and dates; most use cases require extraction of specific entities relevant to the customer or business. For example, if we have lease documents, while it's helpful to be able to extract all instances of a person ... it's **signifcantly** more beneficial to identify who in the lease is specifically the landlord, and whom is the tenant. You can, for example, extract the property size of interest. **All without any model pretraining.** In this example, we'll investigate the plausability of extracting those, and a *~dozen* other lease elements, simply by providing the lease, and asking the model to extract a list of **custom** entities, without providing any examples of what those entities should look like.  
 
--using model text-davinci-003[^reference]  
--prompt image  
+# Task - Extracting *Custom* Entities  
+Custom NER enables users to build custom AI models to extract domain-specific entities from unstructured text, such as contracts or financial documents. 
+They typical training process requires developers and data scientists to iteratively label data, train, evaluate, and improve model performance before making it available for consumption. The quality of the labeled data greatly impacts model performance[^4]. 
+![](images/development-lifecycle.jpg)  
+
+Zero shot learning, often achieves similar performance, without the iterative model training and data curation/labeling tasks!
+
 # What is zero shot learning?  
--Ask chatgpt!  
+Ask chatgpt!  
 `What is zero shot learning and why is it powerful?`
 ```
 Zero shot learning is a type of machine learning algorithm that allows a model to make predictions on data it has never seen before.  
@@ -24,9 +29,10 @@ predictions on data it has never seen before, which can be useful in a variety o
 ```  
 
 
-Custom NER enables users to build custom AI models to extract domain-specific entities from unstructured text, such as contracts or financial documents. 
-They typical training process requires developers and data scientists to iteratively label data, train, evaluate, and improve model performance before making it available for consumption. The quality of the labeled data greatly impacts model performance[^4]. 
-![](images/development-lifecycle.jpg)  
+
+
+-using model text-davinci-003[^reference]  
+![](images/zero_shot_lease_flow.jpg)
 
 We'll show:  
 ![](images/prompt_design.jpg)  
