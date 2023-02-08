@@ -112,9 +112,9 @@ period of June 28 through December 27, 1997 (BDS$36,200) to the LANDLORD at 11 P
 }
 ```  
 # Next Steps  
-* Explore more capabilities at ![Azure OpenAI}(https://learn.microsoft.com/en-us/azure/cognitive-services/openai/)  
-* Build an end-to-end doc processing pipeline with ![Azure Cognitive Services](https://azure.microsoft.com/en-us/products/cognitive-services/#overview)
-* OCR your documents, and take advantage of general and pretrained document models with ![Azure Form Recognizer](https://azure.microsoft.com/en-us/products/form-recognizer/)  
+* Explore more capabilities at [Azure OpenAI](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/)
+* Build an end-to-end doc processing pipeline with [Azure Cognitive Services](https://azure.microsoft.com/en-us/products/cognitive-services/#overview)
+* OCR your documents, and take advantage of general and pretrained document models with [Azure Form Recognizer](https://azure.microsoft.com/en-us/products/form-recognizer/)
 
 
 # References  
