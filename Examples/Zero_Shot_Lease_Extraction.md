@@ -1,4 +1,12 @@
 # Overview  
+The ability to extract targeted pieces of information from documents, specific to each customer and use case is a common, emerging use case across industries. This typically requires iteratively training a customized model, against a curated, customer dataset. In this demo we'll show the power of OpenAI models' ability to extract precise information from a document, from only a natural language instruction - enabled by the Large Language Models's (LLM) capability to understand the context of the inqury/instruction and the provided document.
+
+**Steps**
+User Zero shot learning to:
+- [] Provide natural language instruction task ("please extract these ~dozen pieces of information from the lease, e.g. Who is the landlord? What is the size of the property? And please return in the output in a clean json format.")
+- [] Add the lease to the prompt
+- [] Results!  
+
 -using zero shot, pass in natural language instruction, sample lease, and visualize output  
 -while pretrained NER models are great for extracting general categories, persons, organizations, localations, and dates; most use cases require extraction of specific entities relevant to the customer or business. For example, if we have lease documents, while it's helpful to be able to extract all instances of a person ... it's **signifcantly** more beneficial to identify who in the lease is specifically the landlord, and whom is the tenant. You can, for example, extract the property size of interest. **All without any model pretraining.** In this example, we'll investigate the plausability of extracting those, and a *~dozen* other lease elements, simply by providing the lease, and asking the model to extract a list of **custom** entities, without providing any examples of what those entities should look like.  
 
