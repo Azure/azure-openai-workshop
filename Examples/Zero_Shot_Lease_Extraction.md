@@ -28,13 +28,11 @@ better, as it can make predictions on data it has never seen before. This is pow
 predictions on data it has never seen before, which can be useful in a variety of applications.  
 ```  
 
+In this demo, we'll submit a single prompt, including the task, in natural languge, with the lease to be analyzed, to one of the most powerful OpenAI models: text-davinci-003[^reference]  
 
+![](images/zero_shot_lease_flow.jpg)  
 
-
--using model text-davinci-003[^reference]  
-![](images/zero_shot_lease_flow.jpg)
-
-We'll show:  
+Using your OpenAI Resource (How to get started with OpenAI), navigate to the OpenAI playground, and submit your prompt.  
 ![](images/prompt_design.jpg)  
 
 
