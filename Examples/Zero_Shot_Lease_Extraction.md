@@ -19,7 +19,9 @@ Zero shot learning, often achieves similar performance, without the iterative mo
 
 # What is Zero-Shot Learning?  
 Ask chatgpt!  
-`What is zero shot learning and why is it powerful?`
+**prompt (input)**  
+`What is zero shot learning and why is it powerful?`  
+**completion (output)**
 ```
 Zero shot learning is a type of machine learning algorithm that allows a model to make predictions on data it has never seen before.  
 This is significant because it allows the model to make predictions on data it has never seen before, which can be useful in a  
@@ -32,7 +34,8 @@ In this demo, we'll submit a single prompt, including the task, in natural langu
 
 ![](images/zero_shot_lease_flow.jpg)  
 
-Using your OpenAI Resource (How to get started with OpenAI), navigate to the OpenAI playground, and submit your prompt.  
+Using your OpenAI Resource [How to get started with OpenAI](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/create-resource?pivots=web-portal), navigate to the OpenAI playground, and submit your prompt.  
+
 ![](images/prompt_design.jpg)  
 
 
