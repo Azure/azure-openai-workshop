@@ -1,5 +1,15 @@
+# Overview  
+-using zero shot, pass in natural language instruction, sample lease, and visualize output  
+-using model text-davinci-003  
+-promt image  
+# What is zero shot learning?
+# Prompt
+```
+Using the lease below, return a json object containing:  
 
-Using the lease below, return a json object containing: Lessor, Lessee, Property Address, Property Description, Net Size of Property, Net Size of Property Units, Gross Size of Property, Gross Size of Propery Units, Contract Start Date, Lease Start Date, Lease End Date, Lease Term (include the units), Monthly Lease Amount (include currency), Payment Frequency, Payment Address. Format dates as YYYY-MM-DD. Lease: LEASE AGREEMENT
+Lessor, Lessee, Property Address, Property Description, Net Size of Property, Net Size of Property Units, Gross Size of Property, Gross Size of Propery Units, Contract Start Date, Lease Start Date, Lease End Date, Lease Term (include the units), Monthly Lease Amount (include currency), Payment Frequency, Payment Address.  
+
+Format dates as YYYY-MM-DD. Lease: LEASE AGREEMENT
 Between
 BOB MARSHALL
 and
@@ -42,3 +52,10 @@ All financial obligations of the TENANT resulting from this Lease are subject to
 of funds appropriated annually by the Congress of the United States of America. Payments are
 to be made quarterly in advance, except that the initial payment shall be for six months for the
 period of June 28 through December 27, 1997 (BDS$36,200) to the LANDLORD at 11 Parma Avenue, Ft. Overview Heights, St. James, Barbados.
+```  
+
+# References
+azure documentation  
+# Credit:  
+* Kevin Tupper <kevin.tupper@microsoft.com>
+* Brandon Cowen <brandoncowen@microsoft.com>
