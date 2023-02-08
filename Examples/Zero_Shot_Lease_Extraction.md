@@ -143,8 +143,9 @@ User Zero shot learning to:
 * Learn about how further improvements can be attained via one-shot, few-shot learning, or fine-tuning (https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/fine-tuning?pivots=programming-language-studio) 
 * Learn more about prompt engineering (https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/completions)  
 * Explore more capabilities at [Azure OpenAI](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/)
-* Build an end-to-end doc processing pipeline with [Azure Cognitive Services](https://azure.microsoft.com/en-us/products/cognitive-services/#overview)
+* Build an end-to-end doc processing pipelines with [Azure Cognitive Services](https://azure.microsoft.com/en-us/products/cognitive-services/#overview)
 * OCR your documents, and take advantage of general and pretrained document models with [Azure Form Recognizer](https://azure.microsoft.com/en-us/products/form-recognizer/)
+* Experiment with quickly deploying multi-service pipelines through the no-code Studio [](https://github.com/Azure/business-process-automation)  
 
 
 # References  
@@ -156,4 +157,4 @@ User Zero shot learning to:
 # Credit:  
 * Kevin Tupper <kevin.tupper@microsoft.com>
 * Brandon Cowen <brandoncowen@microsoft.com>  
-* [](aka.ms/airangers)
+* aka.ms/airangers
