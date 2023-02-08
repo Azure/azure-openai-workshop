@@ -15,7 +15,9 @@ better, as it can make predictions on data it has never seen before. This is pow
 predictions on data it has never seen before, which can be useful in a variety of applications.  
 ```  
 
-They typical training process requires:  
+
+Custom NER enables users to build custom AI models to extract domain-specific entities from unstructured text, such as contracts or financial documents. 
+They typical training process requires developers and data scientists to iteratively label data, train, evaluate, and improve model performance before making it available for consumption. The quality of the labeled data greatly impacts model performance[^4]. 
 ![](images/development-lifecycle.jpg)  
 
 We'll show:  
