@@ -17,7 +17,7 @@ They typical training process requires developers and data scientists to iterati
 
 Zero shot learning, often achieves similar performance, without the iterative model training and data curation/labeling tasks!
 
-# What is zero shot learning?  
+# What is Zero-Shot Learning?  
 Ask chatgpt!  
 `What is zero shot learning and why is it powerful?`
 ```
@@ -37,7 +37,13 @@ Using your OpenAI Resource (How to get started with OpenAI), navigate to the Ope
 
 
 # Prompt  
-### Natural Language Instruction Task + prompt  
+**Steps:**  
+User Zero shot learning to:
+- [x] Provide natural language instruction task ("please extract these ~dozen pieces of information from the lease, e.g. Who is the landlord? What is the size of the property? And please return in the output in a clean json format.")
+- [x] Add the lease to the prompt
+- [ ] Results!  
+
+### Natural Language Instruction Task + Prompt  
 ```
 Using the lease below, return a json object containing:  
   
@@ -95,6 +101,14 @@ of funds appropriated annually by the Congress of the United States of America. 
 to be made quarterly in advance, except that the initial payment shall be for six months for the
 period of June 28 through December 27, 1997 (BDS$36,200) to the LANDLORD at 11 Parma Avenue, Ft. Overview Heights, St. James, Barbados.
 ```  
+
+**Steps:**  
+User Zero shot learning to:
+- [x] Provide natural language instruction task ("please extract these ~dozen pieces of information from the lease, e.g. Who is the landlord? What is the size of the property? And please return in the output in a clean json format.")
+- [x] Add the lease to the prompt
+- [x] Results!  
+
+
 ### Output  
 ```json
 {
@@ -115,7 +129,13 @@ period of June 28 through December 27, 1997 (BDS$36,200) to the LANDLORD at 11 P
   "Payment Address": "11 Parma Avenue, Ft. Overview Heights, St. James, Barbados"
 }
 ```  
+
+### Next Steps
+* Further improvements can be attained via one-shot, few-shot learning, or fine-tuning (https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/fine-tuning?pivots=programming-language-studio)
+
+
 # Next Steps  
+* Learn more about prompt engineering (https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/completions)  
 * Explore more capabilities at [Azure OpenAI](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/)
 * Build an end-to-end doc processing pipeline with [Azure Cognitive Services](https://azure.microsoft.com/en-us/products/cognitive-services/#overview)
 * OCR your documents, and take advantage of general and pretrained document models with [Azure Form Recognizer](https://azure.microsoft.com/en-us/products/form-recognizer/)
