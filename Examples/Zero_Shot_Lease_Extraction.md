@@ -1,5 +1,5 @@
 # Overview  
-The ability to extract targeted pieces of information from documents, specific to each customer and use case is a common, emerging use case across industries. This typically requires iteratively training a customized model, against a curated, customer dataset. In this demo we'll show the power of OpenAI models' ability to extract precise information from a document, from only a natural language instruction - enabled by the Large Language Models's (LLM) capability to understand the context of the inqury/instruction and the provided document.
+The ability to extract targeted pieces of information from documents, specific to each customer and use case is a common, emerging use case across industries. This typically requires iteratively training a customized model, against a curated, customer dataset. In this demo we'll show the power of OpenAI models' ability to extract precise information from a document, from a simple instruction, in natural language - enabled by the Large Language Models's (LLM) capability to understand the context of the inqury/instruction, and the context of the document.
 
 **Steps:**  
 Use-zero shot learning to:
@@ -8,11 +8,11 @@ Use-zero shot learning to:
 - [ ] Results!  
 
 # Motivation  
-While pretrained NER models are great for extracting general categories, persons, organizations, localations, and dates; most use cases require extraction of specific entities relevant to the customer or business. For example, if we have lease documents, while it's helpful to be able to extract all instances of a person ... it's **signifcantly** more beneficial to identify who in the lease is specifically the landlord, and whom is the tenant. You can, for example, extract the property size of interest. **All without any model pretraining.** In this example, we'll investigate the plausability of extracting those, and a *~dozen* other lease elements, simply by providing the lease, and asking the model to extract a list of **custom** entities, without providing any examples of what those entities should look like.  
+While pretrained NER models are great for extracting general categories, persons, organizations, localations, and dates; most use cases require extraction of specific entities relevant to the customer or business. For example, if we have lease documents, while it's helpful to be able to extract all instances of a person with a generic model... it's **signifcantly** more beneficial to identify whom in the lease is specifically the landlord, and whom is the tenant. You can also, for example, extract the size of property being leased (ignoring other address found within the document) - **All without any model training or fine-tuning.** In this example, we'll investigate the plausability of extracting those, and a *~dozen* other objects of specific interest to only lease documents, simply by providing the lease, and asking the model to extract a list of **custom** entities, *without* providing any examples of what those entities should look like.  
 
 # Task - Extracting *Custom* Entities  
 Custom NER enables users to build custom AI models to extract domain-specific entities from unstructured text, such as contracts or financial documents. 
-They typical training process requires developers and data scientists to iteratively label data, train, evaluate, and improve model performance before making it available for consumption. The quality of the labeled data greatly impacts model performance[^4]. 
+They typical training process requires developers and data scientists to iteratively label data, train, evaluate, and improve model performance before making it available for consumption. And the quality of the labeled data greatly impacts model performance[^4]. 
 ![](images/development-lifecycle.jpg)  
 
 Zero shot learning, often achieves similar performance, without the iterative model training and data curation/labeling tasks!
@@ -139,11 +139,8 @@ User Zero shot learning to:
 }
 ```  
 
-### Next Steps
-* Further improvements can be attained via one-shot, few-shot learning, or fine-tuning (https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/fine-tuning?pivots=programming-language-studio)
-
-
-# Next Steps  
+# Next Steps
+* Learn about how further improvements can be attained via one-shot, few-shot learning, or fine-tuning (https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/fine-tuning?pivots=programming-language-studio) 
 * Learn more about prompt engineering (https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/completions)  
 * Explore more capabilities at [Azure OpenAI](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/)
 * Build an end-to-end doc processing pipeline with [Azure Cognitive Services](https://azure.microsoft.com/en-us/products/cognitive-services/#overview)
