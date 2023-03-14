@@ -33,5 +33,4 @@ AZURE_SQL_PASSWORD=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 ### Other useful repositories
-Income Statement Analysis![image](https://user-images.githubusercontent.com/14703336/225055798-6675fe71-a6e0-4fbc-86eb-02d8ac54e705.png)
-https://github.com/jakeatmsft/AzureOpenAIExamples/blob/main/Examples/FormRecognizer/Balance_sheet_analysis.ipynb 
+Income Statement Analysis: https://github.com/jakeatmsft/AzureOpenAIExamples/blob/main/Examples/FormRecognizer/Balance_sheet_analysis.ipynb 
