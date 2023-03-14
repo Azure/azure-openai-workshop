@@ -33,4 +33,12 @@ AZURE_SQL_PASSWORD=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 ### Other useful repositories
-Income Statement Analysis: https://github.com/jakeatmsft/AzureOpenAIExamples/blob/main/Examples/FormRecognizer/Balance_sheet_analysis.ipynb 
+Call center solutions:
+
+https://github.com/jakeatmsft/AzureOpenAIExamples/blob/main/Examples/Speech/Conversation_SSML%20OpenAI.ipynb 
+https://github.com/amulchapla/AI-Powered-Call-Center-Intelligence 
+
+
+Income Statement Analysis:
+
+https://github.com/jakeatmsft/AzureOpenAIExamples/blob/main/Examples/FormRecognizer/Balance_sheet_analysis.ipynb 
