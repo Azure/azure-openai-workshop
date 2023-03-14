@@ -5,7 +5,6 @@ Welcome to the Azure OpenAI in a day workshop! In this workshop, you will learn 
 To setup this workhopp, we suggest you setup .env file where you store key informations for Azure services. For example: 
 
 ```
-SERPAPI_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxx
 OPENAI_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxx
 OPENAI_API_BASE=https://<your service name>.openai.azure.com/
 OPENAI_API_TYPE=azure
