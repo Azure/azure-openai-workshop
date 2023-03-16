@@ -1,1 +1,1 @@
-Contain assets, e.g. images to be used in e.g. README.md or any other documentation
+Contains assets, e.g. images to be used in the README.md at the repo top level
