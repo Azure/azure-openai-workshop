@@ -13,7 +13,7 @@ While pretrained NER models are great for extracting general categories, persons
 # Task - Extracting *Custom* Entities  
 Custom NER enables users to build custom AI models to extract domain-specific entities from unstructured text, such as contracts or financial documents. 
 They typical training process requires developers and data scientists to iteratively label data, train, evaluate, and improve model performance before making it available for consumption. And the quality of the labeled data greatly impacts model performance[^4]. 
-![](images/development-lifecycle.jpg)  
+![](./assets/development-lifecycle.jpg) 
 
 Zero shot learning, often achieves similar performance, without the iterative model training and data curation/labeling tasks!
 
@@ -37,12 +37,10 @@ predictions on data it has never seen before, which can be useful in a variety o
 
 -------
 In this demo, we'll submit a single prompt, including the task, in natural languge, with the lease to be analyzed, to one of the most powerful OpenAI models: text-davinci-003[^4]  
-
-![](images/zero_shot_lease_flow.jpg)  
+1[](./assets/zero_shot_lease_flow.jpg)
 
 Using your OpenAI Resource [(How to get started with OpenAI)](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/create-resource?pivots=web-portal), navigate to the OpenAI playground, and submit your prompt.  
-
-![](images/prompt_design.jpg)  
+![](./assets/prompt_design.jpg)
 
 
 # Prompt  
