@@ -1,48 +1,23 @@
-# Azure OpenAI Workshop
+# GPT Fundamentals, Sample Solutions, and Use Cases
 
-Welcome to the Azure OpenAI in a day workshop! In this workshop, you will learn how to use the Azure OpenAI service to create AI powered solutions. You will get hands-on experience with the latest AI technologies and will learn how to use Azure OpenAI API.
+This repository contains resources to help you understand how to use GPT (Generative Pre-trained Transformer) offered by Azure OpenAI at the fundamental level, explore sample end-to-end solutions, and learn about various use cases. 
 
-To setup this workhopp, we suggest you setup .env file where you store key informations for Azure services. For example: 
+## What is GPT?
 
-```
-OPENAI_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxx
-OPENAI_API_BASE=https://<your service name>.openai.azure.com/
-OPENAI_API_TYPE=azure
-OPENAI_API_VERSION=2022-12-01
-DOCUMENT_MODEL_NAME=curie-search-doc
-QUERY_MODEL_NAME=curie-query-doc
-DEPLOYMENT_NAME=text-davinci-003
-AZURE_FORM_RECOGNIZER_ENDPOINT=https://<service name>.cognitiveservices.azure.com/
-AZURE_FORM_RECOGNIZER_KEY=xxxxxxxxxxxxxxxxxxxxxxxx
-AZURE_BLOB_STORAGE_ACCOUNT_NAME=<your blob storage account name>
-AZURE_BLOB_STORAGE_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-AZURE_COGNITIVE_SEARCH_ENDPOINT=https://<service name>.search.windows.net
-AZURE_COGNITIVE_SEARCH_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-AZURE_COGNITIVE_SEARCH_INDEX_NAME=<index name>
-AZURE_COGNITIVE_SEARCH_API_VERSION=2021-04-30-Preview
-REDIS_HOST=localhost
-REDIS_PORT=6379
-REDIS_USERNAME=test
-REDIS_PASSWORD=
-REDIS_SSL=False
-BING_SEARCH_URL=https://api.bing.microsoft.com/v7.0/search
-BING_SUBSCRIPTION_KEY=xxxxxxxxxxxxxxxxxxxxxxxx
-AZURE_SQL_USERNAME=<user name@instance>
-AZURE_SQL_PASSWORD=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-```
+GPT (Generative Pre-trained Transformer) is a natural language processing (NLP) model developed by OpenAI. It is a deep learning model based on the Transformer architecture. GPT is pre-trained on a large corpus of text data in order to generate human-like text.
 
+## Resources
 
-### Other useful repositories
-**Call center solutions:**
+The following resources are available in this repository:
 
-https://github.com/jakeatmsft/AzureOpenAIExamples/blob/main/Examples/Speech/Conversation_SSML%20OpenAI.ipynb 
-https://github.com/amulchapla/AI-Powered-Call-Center-Intelligence 
+- **Fundamentals**: A collection of notebooks illustrating fundamental usage of GPT.
+- **Use Cases**: A collection of notebooks illustrating examples on how to use GPT in various applications, such as chatbots, customer service, and content generation etc.
+- **Sample Solutions**: End-to-end solutions for various NLP tasks, such as question answering, text summarization, and sentiment analysis in context of business applications specific to various industries.
 
-**Income Statement Analysis:**
+## Getting Started
 
-https://github.com/jakeatmsft/AzureOpenAIExamples/blob/main/Examples/FormRecognizer/Balance_sheet_analysis.ipynb 
+To get started, clone this repository and explore the resources.
 
-**Business Process Automation:**
+## Contributing
 
-https://github.com/Azure/business-process-automation
-
+We welcome contributions to this repository. If you have any ideas or suggestions, please feel free to open an issue or submit a pull request.
