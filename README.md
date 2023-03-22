@@ -12,7 +12,7 @@ The following resources are available in this repository:
 
 - **Fundamentals**: A collection of notebooks illustrating fundamental usage of GPT.
 - **Use Cases**: A collection of notebooks illustrating examples on how to use GPT in various applications, such as chatbots, customer service, and content generation etc.
-- **Sample Solutions**: End-to-end solutions for various NLP tasks, such as question answering, text summarization, and sentiment analysis in context of business applications specific to various industries.
+- **Sample Solutions**: End-to-end solutions for various NLP tasks, such as question answering, text summarization, and sentiment analysis etc, in context of business applications specific to various industries.
 
 ## Getting Started
 
