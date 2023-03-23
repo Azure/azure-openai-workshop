@@ -8,8 +8,8 @@ They have admin access to the repo and provide support reviewing issues and pull
 
 In alphabetical order by last name:
 - **[Chew-Yean Yam](https://github.com/ryubidragonfire)**
-   - [use_cases | generate_podcast_synopsis](./use_cases/generate_podcast_synopsis/)  
-   - [fundamentals | document_analysis](./fundamentals/document_analysis/)
+   - use_cases | generate_podcast_synopsis
+   - fundamentals | document_analysis
 
 
 # Contributors
@@ -19,4 +19,4 @@ To contributors: please kindly add your name here when you submit a pull request
 
 In alphabetical order by last name:
 - **[your name | your github name](https://github.com/your_github_name)**
-   - [e.g. use_cases | e.g. generate_podcast_synopsis](./use_cases/generate_podcast_synopsis/) 
+   - e.g. fundamentals | e.g. document_analysis
