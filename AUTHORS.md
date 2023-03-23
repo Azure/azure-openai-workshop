@@ -6,7 +6,7 @@ This repo is devloped and maintained by a community interested in sharing their 
 Maintainers are actively supporting the project and have made substantial contributions to the repository.
 They have admin access to the repo and provide support reviewing issues and pull requests.
 
-In alphabetical order:
+In alphabetical order by last name:
 - **[Chew-Yean Yam](https://github.com/ryubidragonfire)**
    - [use_cases | generate_podcast_synopsis](./use_cases/generate_podcast_synopsis/)  
    - [fundamentals | document_analysis](./fundamentals/document_analysis/)
@@ -17,6 +17,6 @@ Contributors are people from the community who has contributed into this repo.
 
 To contributors: please kindly add your name here when you submit a pull request.
 
-In alphabetical order:
+In alphabetical order by last name:
 - **[your name | your github name](https://github.com/your_github_name)**
    - [e.g. use_cases | e.g. generate_podcast_synopsis](./use_cases/generate_podcast_synopsis/) 
