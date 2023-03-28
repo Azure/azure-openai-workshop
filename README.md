@@ -18,6 +18,9 @@ The following resources are available in this repository:
 ## GPT Version
 As of now, the samples here are based on GPT 3.5. We will update accordingly when the GPT-4 is widely accessible.
 
+## Set Up
+To use sample codes in this repo, we suggest you setup .env file where you store key informations for Azure services. See [.env.sample](./.env.sample) file for example.
+
 ## Contributing
 We welcome contributions to this repository. If you have any ideas or suggestions, please feel free to open an issue or submit a pull request.
 
