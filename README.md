@@ -1,48 +1,41 @@
-# Azure OpenAI Workshop
+# GPT Fundamentals, Use Cases and Sample Solutions
+This repository contains resources to help you understand how to use GPT (Generative Pre-trained Transformer) offered by Azure OpenAI at the fundamental level, explore sample end-to-end solutions, and learn about various use cases. 
 
-Welcome to the Azure OpenAI in a day workshop! In this workshop, you will learn how to use the Azure OpenAI service to create AI powered solutions. You will get hands-on experience with the latest AI technologies and will learn how to use Azure OpenAI API.
+## What is GPT?
+GPT (Generative Pre-trained Transformer) is a Large Language Model (LLM) developed by OpenAI. It is a deep learning model based on the Transformer architecture. For more information, refer to [OpenAI](openai.com).
 
-To setup this workhopp, we suggest you setup .env file where you store key informations for Azure services. For example: 
+## Resources
+The following resources are available in this repository:
 
-```
-OPENAI_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxx
-OPENAI_API_BASE=https://<your service name>.openai.azure.com/
-OPENAI_API_TYPE=azure
-OPENAI_API_VERSION=2022-12-01
-DOCUMENT_MODEL_NAME=curie-search-doc
-QUERY_MODEL_NAME=curie-query-doc
-DEPLOYMENT_NAME=text-davinci-003
-AZURE_FORM_RECOGNIZER_ENDPOINT=https://<service name>.cognitiveservices.azure.com/
-AZURE_FORM_RECOGNIZER_KEY=xxxxxxxxxxxxxxxxxxxxxxxx
-AZURE_BLOB_STORAGE_ACCOUNT_NAME=<your blob storage account name>
-AZURE_BLOB_STORAGE_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-AZURE_COGNITIVE_SEARCH_ENDPOINT=https://<service name>.search.windows.net
-AZURE_COGNITIVE_SEARCH_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-AZURE_COGNITIVE_SEARCH_INDEX_NAME=<index name>
-AZURE_COGNITIVE_SEARCH_API_VERSION=2021-04-30-Preview
-REDIS_HOST=localhost
-REDIS_PORT=6379
-REDIS_USERNAME=test
-REDIS_PASSWORD=
-REDIS_SSL=False
-BING_SEARCH_URL=https://api.bing.microsoft.com/v7.0/search
-BING_SUBSCRIPTION_KEY=xxxxxxxxxxxxxxxxxxxxxxxx
-AZURE_SQL_USERNAME=<user name@instance>
-AZURE_SQL_PASSWORD=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-```
+- [Quick Start](./quick_start/): A collection of notebooks where you can quickly start with using GPT. 
 
+- [Fundamentals](./fundamentals/): A collection of notebooks illustrating fundamental usage of GPT.
 
-### Other useful repositories
-**Call center solutions:**
+- [Use Cases](./use_cases/): A collection of notebooks illustrating examples on how to use GPT in various applications, such as chatbots, customer service, and content generation etc.
 
-https://github.com/jakeatmsft/AzureOpenAIExamples/blob/main/Examples/Speech/Conversation_SSML%20OpenAI.ipynb 
-https://github.com/amulchapla/AI-Powered-Call-Center-Intelligence 
+- [Sample Solutions](./solution_accelarators/): End-to-end solutions for various NLP tasks, such as question answering, text summarization, and sentiment analysis etc, in context of business applications specific to various industries, where GPT is part of the solution. *Require contributions!*
 
-**Income Statement Analysis:**
+## GPT Version
+As of now, the samples here are based on GPT 3.5. We will update accordingly when the GPT-4 is widely accessible.
 
-https://github.com/jakeatmsft/AzureOpenAIExamples/blob/main/Examples/FormRecognizer/Balance_sheet_analysis.ipynb 
+## Set Up
+To use sample codes in this repo, we suggest you setup .env file where you store key informations for Azure services. See [.env.sample](./.env.sample) file for example.
 
-**Business Process Automation:**
+## Contributing
+We welcome contributions to this repository. If you have any ideas or suggestions, please feel free to open an issue or submit a pull request.
 
-https://github.com/Azure/business-process-automation
+As technologies changes very fast, we endevour to keep this repository updated as quick as possible. However, this is heavily rely on keen community contributors to make this happen. 
 
+## Relevant Repositories
+- **OpenAI Cookbook**
+   -  https://github.com/openai/openai-cookbook
+
+- **Call center solutions:**
+   - https://github.com/jakeatmsft/AzureOpenAIExamples/blob/main/Examples/Speech/Conversation_SSML%20OpenAI.ipynb 
+   - https://github.com/amulchapla/AI-Powered-Call-Center-Intelligence 
+
+- **Income Statement Analysis:**
+   - https://github.com/jakeatmsft/AzureOpenAIExamples/blob/main/Examples/FormRecognizer/Balance_sheet_analysis.ipynb 
+
+- **Business Process Automation:**
+   - https://github.com/Azure/business-process-automation

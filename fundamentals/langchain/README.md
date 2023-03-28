@@ -14,4 +14,4 @@ This repository provides a set of code samples of building intelligence solution
 
 
 # Example of working with Azure SQL Database
-![Example of working with Azure SQL Database](./images/azure-openai-sql-server.jpg)
+![Example of working with Azure SQL Database](./assets/azure-openai-sql-server.jpg)
