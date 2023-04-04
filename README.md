@@ -13,7 +13,7 @@ The following resources are available in this repository:
 
 - [Use Cases](./use_cases/): A collection of notebooks illustrating examples on how to use GPT in various applications, such as chatbots, customer service, and content generation etc.
 
-- [Sample Solutions](./solution_accelarators/): End-to-end solutions for various NLP tasks, such as question answering, text summarization, and sentiment analysis etc, in context of business applications specific to various industries, where GPT is part of the solution. *Require contributions!*
+- [Sample Solutions](./solution_accelerators/): End-to-end solutions for various NLP tasks, such as question answering, text summarization, and sentiment analysis etc, in context of business applications specific to various industries, where GPT is part of the solution. *Require contributions!*
 
 ## GPT Version
 As of now, the samples here are based on GPT 3.5. We will update accordingly when the GPT-4 is widely accessible.
